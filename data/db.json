@@ -1,0 +1,74 @@
+{
+  "categories": [
+    {
+      "id": 2,
+      "name": "changed"
+    },
+    {
+      "id": 3
+    },
+    {
+      "name": "Ahmed",
+      "id": 4
+    },
+    {
+      "name": "Ahmed",
+      "display_name": "hmode",
+      "description": "a 22 year old student",
+      "id": 5
+    },
+    {
+      "name": "Ahmed1",
+      "display_name": "hmode1",
+      "description": "a 22 year old student1",
+      "id": 6
+    },
+    {
+      "name": "Ahmed1",
+      "display_name": "hmode1",
+      "description": "a 22 year old student1",
+      "id": 7
+    },
+    {
+      "name": "khaled",
+      "display_name": "khalod",
+      "description": "a 25 year old student1",
+      "id": 8
+    },
+    {
+      "count": "1",
+      "result": "[]",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "category": "testing",
+      "name": "mahmoud",
+      "display_name": "Teacher",
+      "description": "Teacher at ITUC",
+      "id": 1
+    },
+    {
+      "category": "testing2",
+      "name": "mahmoud4",
+      "display_name": "Teacher5",
+      "description": "Teacher at ITUC1",
+      "id": 2
+    },
+    {
+      "category": "testing55",
+      "name": "farook",
+      "display_name": "student",
+      "description": "student at ITUC",
+      "id": 3
+    },
+    {
+      "name": "asfasf",
+      "category": "ffasfasf",
+      "description": "asfassg",
+      "price": 1.99,
+      "id": 4
+    }
+  ]
+}
