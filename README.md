@@ -6,36 +6,31 @@
 #### Author: Ahmed Abu Samaan
 
 ### submission PR
-https://github.com/AhmedAbuSamaan-401-advanced-javascript/API-SERVER/pull/1
+https://github.com/AhmedAbuSamaan-401-advanced-javascript/API-SERVER/pull/2
 
 ### Swaggerhub doc
 https://app.swaggerhub.com/apis/Ahmed199764/Docs/0.1#/
 
 ### Setup
-json-server
-
-### Modules
-Node.js
+dotenv(PORT)
 
 ### How to initialize/run your application (where applicable)
-npm i -g json-server
+npm init -y
+nodemon
 
-run application :-
-examples :-
-1. json-server --watch ./data/db.json --routes ./data/routes.json
 
-### How to use your library (where applicable)
-This project will work as server while Postman and swiggers will be clients but provided by the server.
+### Libraries :-
+1. dotenv
+2. express
+3. supertest
 
 ### How do you run tests?
-for now , we have to use ubunto to run the code or test.
-GET /categories 200 17.837 ms - 55 --- means ---> succsful
-GET /products 200 5.263 ms - 59 --- means ---> succsful
-while 
-GET /categories/1 404 3.288 ms - 2 --- means ---> Error
+1. npm test
+2. npm run lint
 
-### Describe any tests that you did not complete, skipped, etc
-Everything is perfect as far.
+### problems 
+i still have problem with eslint when i try to run it (working on it).
+this is the first time i try to use workflows / please tell me i did it in right way or i have to do something.
 
 ### UML
-[UML](UML1.png)
+[UML](UML2.png)
