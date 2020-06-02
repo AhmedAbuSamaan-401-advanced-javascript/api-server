@@ -1,0 +1,32 @@
+{
+  "name": "api-server",
+  "version": "1.0.0",
+  "description": "## LAB: HTTP and REST #### Project: Dynamic API #### Author: Ahmed Abu Samaan",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon",
+    "test": "jest --coverage --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AhmedAbuSamaan-401-advanced-javascript/api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AhmedAbuSamaan-401-advanced-javascript/api-server/issues"
+  },
+  "homepage": "https://github.com/AhmedAbuSamaan-401-advanced-javascript/api-server#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lint": "^0.7.0",
+    "supertest": "^4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "jest": "^26.0.1"
+  }
+}
