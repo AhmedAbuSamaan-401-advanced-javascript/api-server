@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon",
-    "test": "jest --coverage --verbose"
+    "test": "jest --coverage --verbose",
+    "lint": "eslint '**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -20,13 +21,15 @@
   },
   "homepage": "https://github.com/AhmedAbuSamaan-401-advanced-javascript/api-server#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
-    "lint": "^0.7.0",
+    "mongoose": "^5.9.17",
+    "morgan": "^1.10.0",
     "supertest": "^4.0.2"
   },
   "devDependencies": {
-    "eslint": "^7.1.0",
+    "@code-fellows/supergoose": "^1.0.2",
     "jest": "^26.0.1"
   }
 }
