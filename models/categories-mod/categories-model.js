@@ -1,6 +1,6 @@
 'use strict';
 
-const Model = require('../model.js');
+const Model = require('../mongo.js');
 const schema = require('./categories-schema.js');
 
 class Categories extends Model {
@@ -9,4 +9,4 @@ class Categories extends Model {
   }
 }
 
-module.exports =  Categories;
+module.exports = new Categories(schema);

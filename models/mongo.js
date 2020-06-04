@@ -20,7 +20,7 @@ class Model {
   } 
 
   delete(_id) {
-    return this.schema.findByIdAndDpdate(_id);
+    return this.schema.findByIdAndDelete(_id);
   } 
 } 
 
