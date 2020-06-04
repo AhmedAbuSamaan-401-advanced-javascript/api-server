@@ -1,8 +1,6 @@
 'use strict';
 
-const Categories = require('../../models/categories-mod/categories-model.js');
-
-const categories = new Categories();
+const categories = require('../../models/categories-mod/categories-model.js');
 
 describe('Categories DB', () => {
 

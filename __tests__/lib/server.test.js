@@ -34,7 +34,7 @@ describe('Storge API', () => {
       .then((data) => {
         return mockRequest.get('/api/v1/categories').then((result) => {
           Object.keys(obj).forEach((key) => {
-            expect(result.body[0][key]).toEqual(obj[key]);
+            expect(result.body.count).toEqual(1);
           });
         });
       });
@@ -71,7 +71,7 @@ describe('Storge API', () => {
       .then((data) => {
         return mockRequest.get('/api/v1/products').then((result) => {
           Object.keys(obj).forEach((key) => {
-            expect(result.body[0][key]).toEqual(obj[key]);
+            expect(result.body.count).toEqual(1);
           });
         });
       });

@@ -1,9 +1,6 @@
 'use strict';
 
-const Products = require('../../models/products-mod/products-model.js');
-let products = new Products();
-
-
+const products = require('../../models/products-mod/products-model.js');
 describe('Products DB', () => {
 
   it('Create a new product', () => {
